@@ -12,7 +12,7 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'LyingOn'
+NAME = 'lyingOn'
 DESCRIPTION = '躺着敲代码'
 URL = 'https://github.com/me/myproject'
 EMAIL = 'chuqisky@gmail.com'
@@ -23,6 +23,7 @@ VERSION = '0.1.1'
 # What packages are required for this module to be executed?
 REQUIRED = [
     # 'requests', 'maya', 'records',
+    'requests','selenium','urllib3'
 ]
 
 # What packages are optional?
