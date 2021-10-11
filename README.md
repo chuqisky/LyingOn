@@ -1,54 +1,10 @@
 📦 setup.py (for humans)
 =======================
 
-This repo exists to provide [an example setup.py] file, that can be used
-to bootstrap your next Python project. It includes some advanced
-patterns and best practices for `setup.py`, as well as some
-commented–out nice–to–haves.
-
-For example, this `setup.py` provides a `$ python setup.py upload`
-command, which creates a *universal wheel* (and *sdist*) and uploads
-your package to [PyPi] using [Twine], without the need for an annoying
-`setup.cfg` file. It also creates/uploads a new git tag, automatically.
-
-In short, `setup.py` files can be daunting to approach, when first
-starting out — even Guido has been heard saying, "everyone cargo cults
-thems". It's true — so, I want this repo to be the best place to
-copy–paste from :)
-
-[Check out the example!][an example setup.py]
-
-Installation
------
-
-To Do
------
-
--   Tests via `$ setup.py test` (if it's concise).
-
-Pull requests are encouraged!
-
-More Resources
---------------
-
--   [What is setup.py?] on Stack Overflow
--   [Official Python Packaging User Guide](https://packaging.python.org)
--   [The Hitchhiker's Guide to Packaging]
--   [Cookiecutter template for a Python package]
-
-License
--------
-
-This is free and unencumbered software released into the public domain.
-
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any means.
-
-  [an example setup.py]: https://github.com/navdeep-G/setup.py/blob/master/setup.py
-  [PyPi]: https://docs.python.org/3/distutils/packageindex.html
-  [Twine]: https://pypi.python.org/pypi/twine
-  [image]: https://farm1.staticflickr.com/628/33173824932_58add34581_k_d.jpg
-  [What is setup.py?]: https://stackoverflow.com/questions/1471994/what-is-setup-py
-  [The Hitchhiker's Guide to Packaging]: https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/creation.html
-  [Cookiecutter template for a Python package]: https://github.com/audreyr/cookiecutter-pypackage
+  这是一个为LyingOnFramework框架服务的项目，在日常自动化测试中，我们的测试人员往往没有一个合适的架构框架，仅仅采用selenium进行杂乱无章的测试，且重复使用的
+基础方法缺少封装，换了项目再继续copy使用。同时，对于不同的公司，自动化测试框架也不一样，甚至有些公司没有自动化测试框架，譬如我们公司☺...
+  为解决我们可爱的，经常给我们开发提出各种各样问题，经常不改完不让开发下班的，我们亲爱的测试人员的令人头大的问题（听君一席话，如听一席话），本项目封装了自动化
+测试中常用的方法，且封装了日志以及企业微信消息通知，便于测试跟随项目发布，若自动化测试未通过，则报警发送至企业微信，便于监控项目。
+  
+# 若项目年久失修或项目出现问题，请联系作者
+# 邮箱：chuqisky@gmail.com
