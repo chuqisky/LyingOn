@@ -18,12 +18,12 @@ URL = 'https://github.com/me/myproject'
 EMAIL = 'chuqisky@gmail.com'
 AUTHOR = 'chuqisky'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '0.1.2'
+VERSION = '0.1.3'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
     # 'requests', 'maya', 'records',
-    'requests','selenium','urllib3'
+    'requests','selenium','urllib3','ddt'
 ]
 
 # What packages are optional?

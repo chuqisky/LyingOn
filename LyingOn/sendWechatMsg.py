@@ -25,7 +25,7 @@ class SendWechatMsg:
             token = result['access_token']
             return token
         else:
-            return False
+            return None
 
     # 发送消息到企业微信
     # corpid 企业id
@@ -46,7 +46,6 @@ class SendWechatMsg:
             "safe": "0"
         }
         result = requests.post(url=url, data=json.dumps(data), verify=False).json()
-        print(result)
 
         if result['errcode'] == 0:
             return 0
